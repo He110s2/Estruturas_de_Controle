@@ -1,0 +1,20 @@
+def contar_idades_21(idade1, idade2, idade3, idade4, idade5):
+    contador = 0
+    if idade1 == 21:
+        contador += 1
+    if idade2 == 21:
+        contador += 1
+    if idade3 == 21:
+        contador += 1
+    if idade4 == 21:
+        contador += 1
+    if idade5 == 21:
+        contador += 1
+    print("Quantidade com 21 anos:", contador)
+
+idade1 = int(input("Digite a idade 1: "))
+idade2 = int(input("Digite a idade 2: "))
+idade3 = int(input("Digite a idade 3: "))
+idade4 = int(input("Digite a idade 4: "))
+idade5 = int(input("Digite a idade 5: "))
+contar_idades_21(i1, i2, i3, i4, i5)
