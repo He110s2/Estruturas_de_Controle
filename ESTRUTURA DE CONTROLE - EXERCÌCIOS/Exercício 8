@@ -1,0 +1,8 @@
+def divisivel_2e3(num):
+    if num % 2 == 0 and num % 3 == 0:
+        print("É divisível por 2 e 3")
+    else:
+        print("Não é divisível por 2 e 3")
+
+num = int(input("Digite um número: "))
+divisivel_2e3(num)
