@@ -1,0 +1,12 @@
+def maior_de_tres(a, b, c):
+    if a >= b and a >= c:
+        print("Maior número:", a)
+    elif b >= a and b >= c:
+        print("Maior número:", b)
+    else:
+        print("Maior número:", c)
+
+a = int(input("Digite o primeiro número: "))
+b = int(input("Digite o segundo número: "))
+c = int(input("Digite o terceiro número: "))
+maior_de_tres(a, b, c)
