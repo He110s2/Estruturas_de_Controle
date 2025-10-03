@@ -1,0 +1,9 @@
+def quadrado_numero(numero):
+    if numero >= 0:
+        quadrado = numero * numero
+        print("Quadrado:", quadrado)
+    else:
+        print("Número negativo, não será calculado.")
+
+numero = int(input("Digite um número: "))
+quadrado_numero(numero)
