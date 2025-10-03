@@ -1,0 +1,27 @@
+def media_pares(n1, n2, n3, n4):
+    soma = 0
+    qtd = 0
+    if n1 % 2 == 0:
+        soma += n1
+        qtd += 1
+    if n2 % 2 == 0:
+        soma += n2
+        qtd += 1
+    if n3 % 2 == 0:
+        soma += n3
+        qtd += 1
+    if n4 % 2 == 0:
+        soma += n4
+        qtd += 1
+    
+    if qtd > 0:
+        media = soma / qtd
+        print("Média dos pares:", media)
+    else:
+        print("Nenhum número par encontrado.")
+
+n1 = int(input("Digite o número 1: "))
+n2 = int(input("Digite o número 2: "))
+n3 = int(input("Digite o número 3: "))
+n4 = int(input("Digite o número 4: "))
+media_pares(n1, n2, n3, n4)
