@@ -1,0 +1,8 @@
+def verificar_salario(salario):
+    if not (salario > 1000):
+        print("Salário não é maior que R$1000,00")
+    else:
+        print("Salário maior que R$1000,00")
+
+salario = float(input("Digite o salário: "))
+verificar_salario(salario)
