@@ -1,0 +1,10 @@
+def verificar_sinal(num):
+    if num == 0:
+        print("É ZERO")
+    elif num > 0:
+        print("Número positivo")
+    else:
+        print("Número negativo")
+
+num = int(input("Digite um número: "))
+verificar_sinal(num)
